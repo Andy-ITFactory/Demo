@@ -13,7 +13,7 @@ class JulesPageElements(object):
 
 
 class JulesPage(Browser):
-    # login page actions 2
+    # login page actions
 
     def navigate_to_jules(self):
         self.driver.get('https://jules.app/sign-in')
