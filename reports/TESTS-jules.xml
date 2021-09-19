@@ -1,0 +1,25 @@
+<testsuite name="jules.Jules" tests="2" errors="0" failures="0" skipped="0" time="1.890142" timestamp="2021-07-01T21:22:00.546420" hostname="DESKTOP-4HKE19N"><testcase classname="jules.Jules" name="Login -- @1.1 " status="passed" time="1.008075"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @smoke
+  Scenario Outline: Login -- @1.1 
+    Given jules: user is on the login page ... passed in 0.642s
+    When jules: user enters valid username "itfactory.ro@gmail.com" and valid password "Start123!!" ... passed in 0.366s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="jules.Jules" name="Login -- @1.2 " status="passed" time="0.882067"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @smoke
+  Scenario Outline: Login -- @1.2 
+    Given jules: user is on the login page ... passed in 0.510s
+    When jules: user enters valid username "itfactory.ro@gmail.com" and valid password "Start123!@" ... passed in 0.372s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
